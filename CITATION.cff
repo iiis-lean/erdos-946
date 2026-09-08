@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: Please cite both this Lean repository and the mathematical sources listed
+  below.
+title: Erdos 946 Lean Formalization Workspace
+type: software
+authors:
+- name: IIIS Lean
+repository-code: https://github.com/iiis-lean/erdos-946
+url: https://github.com/iiis-lean/erdos-946
+license: Apache-2.0
+date-released: '2026-09-08'
+keywords:
+- Lean 4
+- Mathlib
+- formalization
+- number theory
+- Erdos problems
+references:
+- type: article
+  authors:
+  - family-names: Heath-Brown
+    given-names: D. R.
+  title: The divisor function at consecutive integers
+  journal: Mathematika
+  volume: 31
+  issue: 1
+  start: 141
+  end: 149
+  year: 1984
+  doi: 10.1112/S0025579300010743
+  url: https://doi.org/10.1112/S0025579300010743
+- type: book
+  authors:
+  - family-names: Halberstam
+    given-names: Heini
+  - family-names: Richert
+    given-names: Hans-Egon
+  title: Sieve Methods
+  publisher:
+    name: Academic Press
+  year: 1974
+- type: article
+  authors:
+  - family-names: Xie
+    given-names: Shenggang
+  title: On the (k)-Twin Primes Problem
+  journal: Acta Mathematica Sinica
+  volume: 26
+  issue: 3
+  start: 378
+  end: 384
+  year: 1983

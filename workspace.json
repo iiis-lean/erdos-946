@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "kind": "public_lean_export_workspace",
+  "children": [
+    {
+      "repo_key": "ConsecutiveDivisorCounts",
+      "url": "https://github.com/iiis-lean/consecutive-divisor-counts.git",
+      "public_commit": "6e4403a9a5fb212e6f24998ab1e0d7a2ff80d9cf",
+      "local_lc_release_id": "release_b33d1cf41878434f85a6ff74466e2019",
+      "local_lc_release_commit": "f525320065141754cf2b6f5eb6a9d72661ac713b",
+      "completion_mode": "graph_proved",
+      "dependencies": [
+        "WeightedSieve"
+      ]
+    },
+    {
+      "repo_key": "WeightedSieve",
+      "url": "https://github.com/iiis-lean/weighted-sieve.git",
+      "public_commit": "b2e4c77ce10c3b6204a43182aa1e0118c9c83085",
+      "local_lc_release_id": "release_c146c4e7a6be44e5b4211411c04461dc",
+      "local_lc_release_commit": "47e028e5e8656524cca0454fde51cca76e7072c0",
+      "completion_mode": "graph_declared",
+      "dependencies": []
+    }
+  ],
+  "dependency_order": [
+    "WeightedSieve",
+    "ConsecutiveDivisorCounts"
+  ]
+}

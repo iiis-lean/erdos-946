@@ -1,0 +1,6 @@
+[submodule "repos/ConsecutiveDivisorCounts"]
+	path = repos/ConsecutiveDivisorCounts
+	url = https://github.com/iiis-lean/consecutive-divisor-counts.git
+[submodule "repos/WeightedSieve"]
+	path = repos/WeightedSieve
+	url = https://github.com/iiis-lean/weighted-sieve.git

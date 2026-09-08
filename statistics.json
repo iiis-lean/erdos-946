@@ -1,0 +1,1120 @@
+{
+  "method": "Owned .lean files only; .lake/dependencies excluded. Current active declarations, not historical revisions. Nonblank lines containing code are code; remaining nonblank lines are comment-only. Mixed lines count as code.",
+  "repositories": {
+    "ConsecutiveDivisorCounts": {
+      "declarations": 56,
+      "by_kind": {
+        "theorem": 48,
+        "def": 1,
+        "definition": 7
+      },
+      "by_state": {
+        "proved": 48,
+        "declared": 8
+      },
+      "by_status": {
+        "committed": 56
+      },
+      "public": 13,
+      "private": 43,
+      "main_exports": 1,
+      "lean": {
+        "lines": 12543,
+        "blank": 344,
+        "comment_only": 1226,
+        "code": 10973,
+        "mixed": 0,
+        "bytes": 549345,
+        "files": 66
+      },
+      "lean_groups": {
+        "(import aggregators)": {
+          "lines": 15,
+          "blank": 1,
+          "comment_only": 10,
+          "code": 4,
+          "mixed": 0,
+          "bytes": 432,
+          "files": 4
+        },
+        "Main.FiniteSieveSelection": {
+          "lines": 938,
+          "blank": 46,
+          "comment_only": 177,
+          "code": 715,
+          "mixed": 0,
+          "bytes": 42583,
+          "files": 16
+        },
+        "Main.KeyLemma": {
+          "lines": 5508,
+          "blank": 191,
+          "comment_only": 426,
+          "code": 4891,
+          "mixed": 0,
+          "bytes": 229124,
+          "files": 26
+        },
+        "Main.ConsecutiveEqualDivisorCounts": {
+          "lines": 6082,
+          "blank": 106,
+          "comment_only": 613,
+          "code": 5363,
+          "mixed": 0,
+          "bytes": 277206,
+          "files": 20
+        }
+      },
+      "file_statistics": {
+        "ConsecutiveDivisorCounts.lean": {
+          "lines": 2,
+          "blank": 0,
+          "comment_only": 0,
+          "code": 2,
+          "mixed": 0,
+          "bytes": 93
+        },
+        "ConsecutiveDivisorCounts/Main/Basic.lean": {
+          "lines": 1,
+          "blank": 0,
+          "comment_only": 0,
+          "code": 1,
+          "mixed": 0,
+          "bytes": 45
+        },
+        "ConsecutiveDivisorCounts/Main/Interfaces.lean": {
+          "lines": 7,
+          "blank": 1,
+          "comment_only": 5,
+          "code": 1,
+          "mixed": 0,
+          "bytes": 209
+        },
+        "ConsecutiveDivisorCounts/Main/Prelude.lean": {
+          "lines": 5,
+          "blank": 0,
+          "comment_only": 5,
+          "code": 0,
+          "mixed": 0,
+          "bytes": 85
+        },
+        "ConsecutiveDivisorCounts/Main/FiniteSieveSelection/Interfaces.lean": {
+          "lines": 16,
+          "blank": 1,
+          "comment_only": 5,
+          "code": 10,
+          "mixed": 0,
+          "bytes": 1091
+        },
+        "ConsecutiveDivisorCounts/Main/FiniteSieveSelection/Prelude.lean": {
+          "lines": 14,
+          "blank": 1,
+          "comment_only": 5,
+          "code": 8,
+          "mixed": 0,
+          "bytes": 414
+        },
+        "ConsecutiveDivisorCounts/Main/KeyLemma/Interfaces.lean": {
+          "lines": 8,
+          "blank": 1,
+          "comment_only": 5,
+          "code": 2,
+          "mixed": 0,
+          "bytes": 246
+        },
+        "ConsecutiveDivisorCounts/Main/KeyLemma/Prelude.lean": {
+          "lines": 29,
+          "blank": 1,
+          "comment_only": 5,
+          "code": 23,
+          "mixed": 0,
+          "bytes": 1006
+        },
+        "ConsecutiveDivisorCounts/Main/ConsecutiveEqualDivisorCounts/Interfaces.lean": {
+          "lines": 7,
+          "blank": 1,
+          "comment_only": 5,
+          "code": 1,
+          "mixed": 0,
+          "bytes": 239
+        },
+        "ConsecutiveDivisorCounts/Main/ConsecutiveEqualDivisorCounts/Prelude.lean": {
+          "lines": 46,
+          "blank": 1,
+          "comment_only": 5,
+          "code": 40,
+          "mixed": 0,
+          "bytes": 1722
+        },
+        "ConsecutiveDivisorCounts/Main/FiniteSieveSelection/Theorems/cardIocModEqLe.lean": {
+          "lines": 58,
+          "blank": 3,
+          "comment_only": 11,
+          "code": 44,
+          "mixed": 0,
+          "bytes": 2595
+        },
+        "ConsecutiveDivisorCounts/Main/FiniteSieveSelection/Theorems/natCastSumMulDivSquareLe.lean": {
+          "lines": 44,
+          "blank": 5,
+          "comment_only": 13,
+          "code": 26,
+          "mixed": 0,
+          "bytes": 1731
+        },
+        "ConsecutiveDivisorCounts/Main/FiniteSieveSelection/Theorems/existsAffineProductAvoidingFinitePrimes.lean": {
+          "lines": 64,
+          "blank": 3,
+          "comment_only": 12,
+          "code": 49,
+          "mixed": 0,
+          "bytes": 3023
+        },
+        "ConsecutiveDivisorCounts/Main/FiniteSieveSelection/Theorems/existsSquarefreeSeparatedAffineProduct.lean": {
+          "lines": 166,
+          "blank": 3,
+          "comment_only": 15,
+          "code": 148,
+          "mixed": 0,
+          "bytes": 7802
+        },
+        "ConsecutiveDivisorCounts/Main/FiniteSieveSelection/Theorems/primeSquareDvdSeparatedProduct.lean": {
+          "lines": 46,
+          "blank": 3,
+          "comment_only": 11,
+          "code": 32,
+          "mixed": 0,
+          "bytes": 2097
+        },
+        "ConsecutiveDivisorCounts/Main/FiniteSieveSelection/Theorems/existsResidueAvoidingAffineZeros.lean": {
+          "lines": 32,
+          "blank": 3,
+          "comment_only": 10,
+          "code": 19,
+          "mixed": 0,
+          "bytes": 1444
+        },
+        "ConsecutiveDivisorCounts/Main/FiniteSieveSelection/Theorems/existsNatMulSqrtLinearLt.lean": {
+          "lines": 67,
+          "blank": 3,
+          "comment_only": 12,
+          "code": 52,
+          "mixed": 0,
+          "bytes": 2493
+        },
+        "ConsecutiveDivisorCounts/Main/FiniteSieveSelection/Theorems/affineCongruenceUniqueRoot.lean": {
+          "lines": 25,
+          "blank": 3,
+          "comment_only": 10,
+          "code": 12,
+          "mixed": 0,
+          "bytes": 1034
+        },
+        "ConsecutiveDivisorCounts/Main/FiniteSieveSelection/Theorems/natMulPrimeReciprocalSquareSumLtOne.lean": {
+          "lines": 56,
+          "blank": 3,
+          "comment_only": 11,
+          "code": 42,
+          "mixed": 0,
+          "bytes": 2420
+        },
+        "ConsecutiveDivisorCounts/Main/FiniteSieveSelection/Theorems/primeSquareDvdAffineValueLe.lean": {
+          "lines": 25,
+          "blank": 3,
+          "comment_only": 11,
+          "code": 11,
+          "mixed": 0,
+          "bytes": 1262
+        },
+        "ConsecutiveDivisorCounts/Main/FiniteSieveSelection/Theorems/cardPrimeSquareBadAffineParametersLe.lean": {
+          "lines": 67,
+          "blank": 3,
+          "comment_only": 13,
+          "code": 51,
+          "mixed": 0,
+          "bytes": 3437
+        },
+        "ConsecutiveDivisorCounts/Main/FiniteSieveSelection/Theorems/intDivSubIntDivLe.lean": {
+          "lines": 62,
+          "blank": 3,
+          "comment_only": 13,
+          "code": 46,
+          "mixed": 0,
+          "bytes": 2524
+        },
+        "ConsecutiveDivisorCounts/Main/FiniteSieveSelection/Theorems/cardAffineCongruenceInIocLe.lean": {
+          "lines": 56,
+          "blank": 3,
+          "comment_only": 11,
+          "code": 42,
+          "mixed": 0,
+          "bytes": 2708
+        },
+        "ConsecutiveDivisorCounts/Main/FiniteSieveSelection/Theorems/existsLargePrimeSquareSieveInterval.lean": {
+          "lines": 140,
+          "blank": 3,
+          "comment_only": 14,
+          "code": 123,
+          "mixed": 0,
+          "bytes": 6508
+        },
+        "ConsecutiveDivisorCounts/Main/KeyLemma/Theorems/keyLemma.lean": {
+          "lines": 1165,
+          "blank": 9,
+          "comment_only": 20,
+          "code": 1136,
+          "mixed": 0,
+          "bytes": 47725
+        },
+        "ConsecutiveDivisorCounts/Main/KeyLemma/Theorems/existsSquarefreeLinearProductParameter.lean": {
+          "lines": 338,
+          "blank": 17,
+          "comment_only": 26,
+          "code": 295,
+          "mixed": 0,
+          "bytes": 13792
+        },
+        "ConsecutiveDivisorCounts/Main/KeyLemma/Theorems/existsPositiveSevenKeyLemmaData.lean": {
+          "lines": 1195,
+          "blank": 7,
+          "comment_only": 18,
+          "code": 1170,
+          "mixed": 0,
+          "bytes": 48717
+        },
+        "ConsecutiveDivisorCounts/Main/KeyLemma/Theorems/existsSquarefreeOffsetExtension.lean": {
+          "lines": 451,
+          "blank": 11,
+          "comment_only": 20,
+          "code": 420,
+          "mixed": 0,
+          "bytes": 18986
+        },
+        "ConsecutiveDivisorCounts/Main/KeyLemma/Theorems/offsetDifferenceProduct_succ.lean": {
+          "lines": 51,
+          "blank": 5,
+          "comment_only": 14,
+          "code": 32,
+          "mixed": 0,
+          "bytes": 2198
+        },
+        "ConsecutiveDivisorCounts/Main/KeyLemma/Theorems/existsSquarefreeOffsetFamily.lean": {
+          "lines": 116,
+          "blank": 11,
+          "comment_only": 20,
+          "code": 85,
+          "mixed": 0,
+          "bytes": 4733
+        },
+        "ConsecutiveDivisorCounts/Main/KeyLemma/Theorems/keyLemmaOffset_spec.lean": {
+          "lines": 196,
+          "blank": 7,
+          "comment_only": 20,
+          "code": 169,
+          "mixed": 0,
+          "bytes": 8728
+        },
+        "ConsecutiveDivisorCounts/Main/KeyLemma/Theorems/binaryIndex_prod_translate.lean": {
+          "lines": 31,
+          "blank": 5,
+          "comment_only": 12,
+          "code": 14,
+          "mixed": 0,
+          "bytes": 1372
+        },
+        "ConsecutiveDivisorCounts/Main/KeyLemma/Theorems/valuationContributionSymmetric.lean": {
+          "lines": 91,
+          "blank": 7,
+          "comment_only": 16,
+          "code": 68,
+          "mixed": 0,
+          "bytes": 4139
+        },
+        "ConsecutiveDivisorCounts/Main/KeyLemma/Theorems/existsKeyLemmaCRTRealization.lean": {
+          "lines": 1010,
+          "blank": 28,
+          "comment_only": 43,
+          "code": 939,
+          "mixed": 0,
+          "bytes": 41924
+        },
+        "ConsecutiveDivisorCounts/Main/KeyLemma/Theorems/squarefreeAway_mul.lean": {
+          "lines": 72,
+          "blank": 9,
+          "comment_only": 15,
+          "code": 48,
+          "mixed": 0,
+          "bytes": 2466
+        },
+        "ConsecutiveDivisorCounts/Main/KeyLemma/Theorems/keyLemmaAffineBounds.lean": {
+          "lines": 83,
+          "blank": 5,
+          "comment_only": 17,
+          "code": 61,
+          "mixed": 0,
+          "bytes": 3566
+        },
+        "ConsecutiveDivisorCounts/Main/KeyLemma/Theorems/keyLemmaOffset_update_product.lean": {
+          "lines": 112,
+          "blank": 5,
+          "comment_only": 24,
+          "code": 83,
+          "mixed": 0,
+          "bytes": 5293
+        },
+        "ConsecutiveDivisorCounts/Main/KeyLemma/Theorems/differencePrimePart_dvd.lean": {
+          "lines": 37,
+          "blank": 5,
+          "comment_only": 13,
+          "code": 19,
+          "mixed": 0,
+          "bytes": 1617
+        },
+        "ConsecutiveDivisorCounts/Main/KeyLemma/Theorems/prescribedPrimePart_factorization.lean": {
+          "lines": 51,
+          "blank": 7,
+          "comment_only": 15,
+          "code": 29,
+          "mixed": 0,
+          "bytes": 2042
+        },
+        "ConsecutiveDivisorCounts/Main/KeyLemma/Theorems/binaryIndex_translate_ne.lean": {
+          "lines": 26,
+          "blank": 5,
+          "comment_only": 11,
+          "code": 10,
+          "mixed": 0,
+          "bytes": 1023
+        },
+        "ConsecutiveDivisorCounts/Main/KeyLemma/Theorems/existsCRTAvoidingOffsetParameter.lean": {
+          "lines": 162,
+          "blank": 5,
+          "comment_only": 14,
+          "code": 143,
+          "mixed": 0,
+          "bytes": 7876
+        },
+        "ConsecutiveDivisorCounts/Main/KeyLemma/Defs/offsetDifferenceProduct.lean": {
+          "lines": 36,
+          "blank": 5,
+          "comment_only": 15,
+          "code": 16,
+          "mixed": 0,
+          "bytes": 1694
+        },
+        "ConsecutiveDivisorCounts/Main/KeyLemma/Defs/squarefreeAway.lean": {
+          "lines": 20,
+          "blank": 5,
+          "comment_only": 11,
+          "code": 4,
+          "mixed": 0,
+          "bytes": 734
+        },
+        "ConsecutiveDivisorCounts/Main/KeyLemma/Defs/prescribedPrimePart.lean": {
+          "lines": 26,
+          "blank": 5,
+          "comment_only": 12,
+          "code": 9,
+          "mixed": 0,
+          "bytes": 1061
+        },
+        "ConsecutiveDivisorCounts/Main/KeyLemma/Defs/binaryIndex.lean": {
+          "lines": 123,
+          "blank": 11,
+          "comment_only": 20,
+          "code": 92,
+          "mixed": 0,
+          "bytes": 4602
+        },
+        "ConsecutiveDivisorCounts/Main/KeyLemma/Defs/differencePrimePart.lean": {
+          "lines": 27,
+          "blank": 5,
+          "comment_only": 13,
+          "code": 9,
+          "mixed": 0,
+          "bytes": 1170
+        },
+        "ConsecutiveDivisorCounts/Main/KeyLemma/Defs/keyLemmaOffset.lean": {
+          "lines": 30,
+          "blank": 5,
+          "comment_only": 16,
+          "code": 9,
+          "mixed": 0,
+          "bytes": 1500
+        },
+        "ConsecutiveDivisorCounts/Main/KeyLemma/Defs/primeSupportProduct.lean": {
+          "lines": 22,
+          "blank": 5,
+          "comment_only": 11,
+          "code": 6,
+          "mixed": 0,
+          "bytes": 914
+        },
+        "ConsecutiveDivisorCounts/Main/ConsecutiveEqualDivisorCounts/Theorems/sevenConsecutivePairReductionAt.lean": {
+          "lines": 1002,
+          "blank": 9,
+          "comment_only": 56,
+          "code": 937,
+          "mixed": 0,
+          "bytes": 45415
+        },
+        "ConsecutiveDivisorCounts/Main/ConsecutiveEqualDivisorCounts/Theorems/sevenAffineCRTData.lean": {
+          "lines": 231,
+          "blank": 11,
+          "comment_only": 26,
+          "code": 194,
+          "mixed": 0,
+          "bytes": 9767
+        },
+        "ConsecutiveDivisorCounts/Main/ConsecutiveEqualDivisorCounts/Theorems/sevenAffineFamilyCommonSieveWitness.lean": {
+          "lines": 463,
+          "blank": 5,
+          "comment_only": 24,
+          "code": 434,
+          "mixed": 0,
+          "bytes": 19758
+        },
+        "ConsecutiveDivisorCounts/Main/ConsecutiveEqualDivisorCounts/Theorems/sevenAffineSquarefreeExceptionBound.lean": {
+          "lines": 796,
+          "blank": 5,
+          "comment_only": 31,
+          "code": 760,
+          "mixed": 0,
+          "bytes": 38640
+        },
+        "ConsecutiveDivisorCounts/Main/ConsecutiveEqualDivisorCounts/Theorems/sevenAffineFamilyEval.lean": {
+          "lines": 24,
+          "blank": 3,
+          "comment_only": 13,
+          "code": 8,
+          "mixed": 0,
+          "bytes": 1364
+        },
+        "ConsecutiveDivisorCounts/Main/ConsecutiveEqualDivisorCounts/Theorems/sevenAffineFamilyCoprime.lean": {
+          "lines": 228,
+          "blank": 4,
+          "comment_only": 19,
+          "code": 205,
+          "mixed": 0,
+          "bytes": 10156
+        },
+        "ConsecutiveDivisorCounts/Main/ConsecutiveEqualDivisorCounts/Theorems/sevenAffineFamilyAdmissible.lean": {
+          "lines": 233,
+          "blank": 4,
+          "comment_only": 20,
+          "code": 209,
+          "mixed": 0,
+          "bytes": 9663
+        },
+        "ConsecutiveDivisorCounts/Main/ConsecutiveEqualDivisorCounts/Theorems/sevenKeyLemmaData.lean": {
+          "lines": 37,
+          "blank": 5,
+          "comment_only": 13,
+          "code": 19,
+          "mixed": 0,
+          "bytes": 1426
+        },
+        "ConsecutiveDivisorCounts/Main/ConsecutiveEqualDivisorCounts/Theorems/sevenAffineFamilyNondegenerate.lean": {
+          "lines": 172,
+          "blank": 4,
+          "comment_only": 19,
+          "code": 149,
+          "mixed": 0,
+          "bytes": 7833
+        },
+        "ConsecutiveDivisorCounts/Main/ConsecutiveEqualDivisorCounts/Theorems/sevenConsecutivePairReduction.lean": {
+          "lines": 870,
+          "blank": 9,
+          "comment_only": 56,
+          "code": 805,
+          "mixed": 0,
+          "bytes": 41048
+        },
+        "ConsecutiveDivisorCounts/Main/ConsecutiveEqualDivisorCounts/Theorems/sevenAffineFamilyCoprimeAt.lean": {
+          "lines": 646,
+          "blank": 9,
+          "comment_only": 139,
+          "code": 498,
+          "mixed": 0,
+          "bytes": 28114
+        },
+        "ConsecutiveDivisorCounts/Main/ConsecutiveEqualDivisorCounts/Theorems/sevenAffineSieveResult.lean": {
+          "lines": 70,
+          "blank": 5,
+          "comment_only": 18,
+          "code": 47,
+          "mixed": 0,
+          "bytes": 3649
+        },
+        "ConsecutiveDivisorCounts/Main/ConsecutiveEqualDivisorCounts/Theorems/sevenAffineSquarefreeResult.lean": {
+          "lines": 302,
+          "blank": 5,
+          "comment_only": 23,
+          "code": 274,
+          "mixed": 0,
+          "bytes": 14874
+        },
+        "ConsecutiveDivisorCounts/Main/ConsecutiveEqualDivisorCounts/Theorems/consecutiveNaturals_equalDivisorCount_infinite.lean": {
+          "lines": 42,
+          "blank": 5,
+          "comment_only": 13,
+          "code": 24,
+          "mixed": 0,
+          "bytes": 1754
+        },
+        "ConsecutiveDivisorCounts/Main/ConsecutiveEqualDivisorCounts/Theorems/sevenConsecutiveWitnessUnbounded.lean": {
+          "lines": 430,
+          "blank": 9,
+          "comment_only": 82,
+          "code": 339,
+          "mixed": 0,
+          "bytes": 20368
+        },
+        "ConsecutiveDivisorCounts/Main/ConsecutiveEqualDivisorCounts/Theorems/existsSevenAuxiliaryPrimes.lean": {
+          "lines": 102,
+          "blank": 3,
+          "comment_only": 11,
+          "code": 88,
+          "mixed": 0,
+          "bytes": 3731
+        },
+        "ConsecutiveDivisorCounts/Main/ConsecutiveEqualDivisorCounts/Theorems/sevenOmegaCollision.lean": {
+          "lines": 360,
+          "blank": 6,
+          "comment_only": 27,
+          "code": 327,
+          "mixed": 0,
+          "bytes": 16537
+        },
+        "ConsecutiveDivisorCounts/Main/ConsecutiveEqualDivisorCounts/Defs/sevenAffineFamily.lean": {
+          "lines": 21,
+          "blank": 3,
+          "comment_only": 13,
+          "code": 5,
+          "mixed": 0,
+          "bytes": 1148
+        }
+      }
+    },
+    "WeightedSieve": {
+      "declarations": 28,
+      "by_kind": {
+        "definition": 17,
+        "theorem": 9,
+        "structure": 2
+      },
+      "by_state": {
+        "declared": 28
+      },
+      "by_status": {
+        "committed": 28
+      },
+      "public": 26,
+      "private": 2,
+      "main_exports": 26,
+      "lean": {
+        "lines": 809,
+        "blank": 132,
+        "comment_only": 328,
+        "code": 349,
+        "mixed": 0,
+        "bytes": 28567,
+        "files": 54
+      },
+      "lean_groups": {
+        "(import aggregators)": {
+          "lines": 18,
+          "blank": 1,
+          "comment_only": 10,
+          "code": 7,
+          "mixed": 0,
+          "bytes": 550,
+          "files": 4
+        },
+        "Main.Foundations": {
+          "lines": 256,
+          "blank": 45,
+          "comment_only": 104,
+          "code": 107,
+          "mixed": 0,
+          "bytes": 9025,
+          "files": 16
+        },
+        "Main.SevenDimensionalApplication": {
+          "lines": 39,
+          "blank": 6,
+          "comment_only": 18,
+          "code": 15,
+          "mixed": 0,
+          "bytes": 1315,
+          "files": 3
+        },
+        "Main.FiniteDimensionalBounds": {
+          "lines": 225,
+          "blank": 37,
+          "comment_only": 89,
+          "code": 99,
+          "mixed": 0,
+          "bytes": 7745,
+          "files": 14
+        },
+        "Main.WeightedLowerBoundSieve": {
+          "lines": 271,
+          "blank": 43,
+          "comment_only": 107,
+          "code": 121,
+          "mixed": 0,
+          "bytes": 9932,
+          "files": 17
+        }
+      },
+      "file_statistics": {
+        "WeightedSieve.lean": {
+          "lines": 2,
+          "blank": 0,
+          "comment_only": 0,
+          "code": 2,
+          "mixed": 0,
+          "bytes": 71
+        },
+        "WeightedSieve/Main/Basic.lean": {
+          "lines": 1,
+          "blank": 0,
+          "comment_only": 0,
+          "code": 1,
+          "mixed": 0,
+          "bytes": 34
+        },
+        "WeightedSieve/Main/Interfaces.lean": {
+          "lines": 10,
+          "blank": 1,
+          "comment_only": 5,
+          "code": 4,
+          "mixed": 0,
+          "bytes": 360
+        },
+        "WeightedSieve/Main/Prelude.lean": {
+          "lines": 5,
+          "blank": 0,
+          "comment_only": 5,
+          "code": 0,
+          "mixed": 0,
+          "bytes": 85
+        },
+        "WeightedSieve/Main/Foundations/Interfaces.lean": {
+          "lines": 16,
+          "blank": 1,
+          "comment_only": 5,
+          "code": 10,
+          "mixed": 0,
+          "bytes": 915
+        },
+        "WeightedSieve/Main/Foundations/Prelude.lean": {
+          "lines": 5,
+          "blank": 0,
+          "comment_only": 5,
+          "code": 0,
+          "mixed": 0,
+          "bytes": 97
+        },
+        "WeightedSieve/Main/SevenDimensionalApplication/Interfaces.lean": {
+          "lines": 7,
+          "blank": 1,
+          "comment_only": 5,
+          "code": 1,
+          "mixed": 0,
+          "bytes": 217
+        },
+        "WeightedSieve/Main/SevenDimensionalApplication/Prelude.lean": {
+          "lines": 11,
+          "blank": 1,
+          "comment_only": 5,
+          "code": 5,
+          "mixed": 0,
+          "bytes": 434
+        },
+        "WeightedSieve/Main/FiniteDimensionalBounds/Interfaces.lean": {
+          "lines": 14,
+          "blank": 1,
+          "comment_only": 5,
+          "code": 8,
+          "mixed": 0,
+          "bytes": 905
+        },
+        "WeightedSieve/Main/FiniteDimensionalBounds/Prelude.lean": {
+          "lines": 5,
+          "blank": 0,
+          "comment_only": 5,
+          "code": 0,
+          "mixed": 0,
+          "bytes": 109
+        },
+        "WeightedSieve/Main/WeightedLowerBoundSieve/Interfaces.lean": {
+          "lines": 13,
+          "blank": 1,
+          "comment_only": 5,
+          "code": 7,
+          "mixed": 0,
+          "bytes": 878
+        },
+        "WeightedSieve/Main/WeightedLowerBoundSieve/Prelude.lean": {
+          "lines": 5,
+          "blank": 0,
+          "comment_only": 5,
+          "code": 0,
+          "mixed": 0,
+          "bytes": 109
+        },
+        "WeightedSieve/Main/Foundations/AlmostPrimeCounting/Interfaces.lean": {
+          "lines": 11,
+          "blank": 1,
+          "comment_only": 5,
+          "code": 5,
+          "mixed": 0,
+          "bytes": 542
+        },
+        "WeightedSieve/Main/Foundations/AlmostPrimeCounting/Prelude.lean": {
+          "lines": 8,
+          "blank": 1,
+          "comment_only": 5,
+          "code": 2,
+          "mixed": 0,
+          "bytes": 197
+        },
+        "WeightedSieve/Main/Foundations/AffineFamilies/Interfaces.lean": {
+          "lines": 11,
+          "blank": 1,
+          "comment_only": 5,
+          "code": 5,
+          "mixed": 0,
+          "bytes": 506
+        },
+        "WeightedSieve/Main/Foundations/AffineFamilies/Prelude.lean": {
+          "lines": 7,
+          "blank": 1,
+          "comment_only": 5,
+          "code": 1,
+          "mixed": 0,
+          "bytes": 128
+        },
+        "WeightedSieve/Main/Foundations/AlmostPrimeCounting/Defs/HasAtMostPrimeFactors.lean": {
+          "lines": 17,
+          "blank": 4,
+          "comment_only": 7,
+          "code": 6,
+          "mixed": 0,
+          "bytes": 510
+        },
+        "WeightedSieve/Main/Foundations/AlmostPrimeCounting/Defs/GoodAtScale.lean": {
+          "lines": 24,
+          "blank": 4,
+          "comment_only": 8,
+          "code": 12,
+          "mixed": 0,
+          "bytes": 906
+        },
+        "WeightedSieve/Main/Foundations/AlmostPrimeCounting/Defs/GoodParametersUpTo.lean": {
+          "lines": 20,
+          "blank": 4,
+          "comment_only": 7,
+          "code": 9,
+          "mixed": 0,
+          "bytes": 675
+        },
+        "WeightedSieve/Main/Foundations/AlmostPrimeCounting/Defs/AllPrimeFactorsAtLeast.lean": {
+          "lines": 17,
+          "blank": 4,
+          "comment_only": 7,
+          "code": 6,
+          "mixed": 0,
+          "bytes": 517
+        },
+        "WeightedSieve/Main/Foundations/AlmostPrimeCounting/Defs/HasQuantitativeAlmostPrimeValues.lean": {
+          "lines": 23,
+          "blank": 4,
+          "comment_only": 8,
+          "code": 11,
+          "mixed": 0,
+          "bytes": 821
+        },
+        "WeightedSieve/Main/Foundations/AffineFamilies/Types/AffineFamily.lean": {
+          "lines": 17,
+          "blank": 4,
+          "comment_only": 7,
+          "code": 6,
+          "mixed": 0,
+          "bytes": 485
+        },
+        "WeightedSieve/Main/Foundations/AffineFamilies/Defs/AffineFamilyAdmissible.lean": {
+          "lines": 21,
+          "blank": 4,
+          "comment_only": 8,
+          "code": 9,
+          "mixed": 0,
+          "bytes": 749
+        },
+        "WeightedSieve/Main/Foundations/AffineFamilies/Defs/AffineFamilyEval.lean": {
+          "lines": 19,
+          "blank": 4,
+          "comment_only": 7,
+          "code": 8,
+          "mixed": 0,
+          "bytes": 599
+        },
+        "WeightedSieve/Main/Foundations/AffineFamilies/Defs/AffineFamilyAbsProduct.lean": {
+          "lines": 19,
+          "blank": 4,
+          "comment_only": 7,
+          "code": 8,
+          "mixed": 0,
+          "bytes": 676
+        },
+        "WeightedSieve/Main/Foundations/AffineFamilies/Defs/AffineFamilyNondegenerate.lean": {
+          "lines": 21,
+          "blank": 4,
+          "comment_only": 8,
+          "code": 9,
+          "mixed": 0,
+          "bytes": 702
+        },
+        "WeightedSieve/Main/SevenDimensionalApplication/Theorems/SevenAffineFormsQuantitativeAlmostPrime.lean": {
+          "lines": 21,
+          "blank": 4,
+          "comment_only": 8,
+          "code": 9,
+          "mixed": 0,
+          "bytes": 664
+        },
+        "WeightedSieve/Main/FiniteDimensionalBounds/AuxiliaryEstimates/Interfaces.lean": {
+          "lines": 11,
+          "blank": 1,
+          "comment_only": 5,
+          "code": 5,
+          "mixed": 0,
+          "bytes": 586
+        },
+        "WeightedSieve/Main/FiniteDimensionalBounds/AuxiliaryEstimates/Prelude.lean": {
+          "lines": 8,
+          "blank": 1,
+          "comment_only": 5,
+          "code": 2,
+          "mixed": 0,
+          "bytes": 224
+        },
+        "WeightedSieve/Main/FiniteDimensionalBounds/AdmissibleAlmostPrimeOrders/Interfaces.lean": {
+          "lines": 9,
+          "blank": 1,
+          "comment_only": 5,
+          "code": 3,
+          "mixed": 0,
+          "bytes": 476
+        },
+        "WeightedSieve/Main/FiniteDimensionalBounds/AdmissibleAlmostPrimeOrders/Prelude.lean": {
+          "lines": 10,
+          "blank": 1,
+          "comment_only": 5,
+          "code": 4,
+          "mixed": 0,
+          "bytes": 393
+        },
+        "WeightedSieve/Main/FiniteDimensionalBounds/AuxiliaryEstimates/Theorems/XieCorrectionFive.lean": {
+          "lines": 19,
+          "blank": 4,
+          "comment_only": 7,
+          "code": 8,
+          "mixed": 0,
+          "bytes": 594
+        },
+        "WeightedSieve/Main/FiniteDimensionalBounds/AuxiliaryEstimates/Theorems/XieCorrectionSeven.lean": {
+          "lines": 19,
+          "blank": 4,
+          "comment_only": 7,
+          "code": 8,
+          "mixed": 0,
+          "bytes": 593
+        },
+        "WeightedSieve/Main/FiniteDimensionalBounds/AuxiliaryEstimates/Theorems/XieCorrectionSix.lean": {
+          "lines": 19,
+          "blank": 4,
+          "comment_only": 7,
+          "code": 8,
+          "mixed": 0,
+          "bytes": 589
+        },
+        "WeightedSieve/Main/FiniteDimensionalBounds/AuxiliaryEstimates/Defs/XieTau.lean": {
+          "lines": 17,
+          "blank": 4,
+          "comment_only": 7,
+          "code": 6,
+          "mixed": 0,
+          "bytes": 524
+        },
+        "WeightedSieve/Main/FiniteDimensionalBounds/AuxiliaryEstimates/Defs/XieCorrection.lean": {
+          "lines": 21,
+          "blank": 4,
+          "comment_only": 8,
+          "code": 9,
+          "mixed": 0,
+          "bytes": 733
+        },
+        "WeightedSieve/Main/FiniteDimensionalBounds/AdmissibleAlmostPrimeOrders/Theorems/XieOrderSatisfiesParameterCriterion.lean": {
+          "lines": 23,
+          "blank": 4,
+          "comment_only": 8,
+          "code": 11,
+          "mixed": 0,
+          "bytes": 735
+        },
+        "WeightedSieve/Main/FiniteDimensionalBounds/AdmissibleAlmostPrimeOrders/Theorems/XieSevenSatisfiesParameterCriterion.lean": {
+          "lines": 19,
+          "blank": 4,
+          "comment_only": 7,
+          "code": 8,
+          "mixed": 0,
+          "bytes": 556
+        },
+        "WeightedSieve/Main/FiniteDimensionalBounds/AdmissibleAlmostPrimeOrders/Defs/XieOrder.lean": {
+          "lines": 31,
+          "blank": 4,
+          "comment_only": 8,
+          "code": 19,
+          "mixed": 0,
+          "bytes": 728
+        },
+        "WeightedSieve/Main/WeightedLowerBoundSieve/DimensionFunctions/Interfaces.lean": {
+          "lines": 9,
+          "blank": 1,
+          "comment_only": 5,
+          "code": 3,
+          "mixed": 0,
+          "bytes": 419
+        },
+        "WeightedSieve/Main/WeightedLowerBoundSieve/DimensionFunctions/Prelude.lean": {
+          "lines": 7,
+          "blank": 1,
+          "comment_only": 5,
+          "code": 1,
+          "mixed": 0,
+          "bytes": 144
+        },
+        "WeightedSieve/Main/WeightedLowerBoundSieve/ParameterCriterion/Interfaces.lean": {
+          "lines": 7,
+          "blank": 1,
+          "comment_only": 5,
+          "code": 1,
+          "mixed": 0,
+          "bytes": 231
+        },
+        "WeightedSieve/Main/WeightedLowerBoundSieve/ParameterCriterion/Prelude.lean": {
+          "lines": 8,
+          "blank": 1,
+          "comment_only": 5,
+          "code": 2,
+          "mixed": 0,
+          "bytes": 224
+        },
+        "WeightedSieve/Main/WeightedLowerBoundSieve/LinearFormApplication/Interfaces.lean": {
+          "lines": 9,
+          "blank": 1,
+          "comment_only": 5,
+          "code": 3,
+          "mixed": 0,
+          "bytes": 508
+        },
+        "WeightedSieve/Main/WeightedLowerBoundSieve/LinearFormApplication/Prelude.lean": {
+          "lines": 11,
+          "blank": 1,
+          "comment_only": 5,
+          "code": 5,
+          "mixed": 0,
+          "bytes": 440
+        },
+        "WeightedSieve/Main/WeightedLowerBoundSieve/DimensionFunctions/Types/DimensionFunctions.lean": {
+          "lines": 35,
+          "blank": 4,
+          "comment_only": 8,
+          "code": 23,
+          "mixed": 0,
+          "bytes": 1328
+        },
+        "WeightedSieve/Main/WeightedLowerBoundSieve/DimensionFunctions/Theorems/DimensionFunctionsNonempty.lean": {
+          "lines": 19,
+          "blank": 4,
+          "comment_only": 7,
+          "code": 8,
+          "mixed": 0,
+          "bytes": 631
+        },
+        "WeightedSieve/Main/WeightedLowerBoundSieve/DimensionFunctions/Defs/DimensionFunctionsUpper.lean": {
+          "lines": 19,
+          "blank": 4,
+          "comment_only": 7,
+          "code": 8,
+          "mixed": 0,
+          "bytes": 606
+        },
+        "WeightedSieve/Main/WeightedLowerBoundSieve/DimensionFunctions/Defs/StandardDimensionFunctions.lean": {
+          "lines": 20,
+          "blank": 4,
+          "comment_only": 7,
+          "code": 9,
+          "mixed": 0,
+          "bytes": 761
+        },
+        "WeightedSieve/Main/WeightedLowerBoundSieve/DimensionFunctions/Defs/DimensionFunctionsLower.lean": {
+          "lines": 19,
+          "blank": 4,
+          "comment_only": 7,
+          "code": 8,
+          "mixed": 0,
+          "bytes": 580
+        },
+        "WeightedSieve/Main/WeightedLowerBoundSieve/ParameterCriterion/Defs/SatisfiesParameterCriterion.lean": {
+          "lines": 26,
+          "blank": 4,
+          "comment_only": 8,
+          "code": 14,
+          "mixed": 0,
+          "bytes": 837
+        },
+        "WeightedSieve/Main/WeightedLowerBoundSieve/LinearFormApplication/Theorems/HalberstamRichertQuantitativeAffineAlmostPrime.lean": {
+          "lines": 23,
+          "blank": 4,
+          "comment_only": 8,
+          "code": 11,
+          "mixed": 0,
+          "bytes": 881
+        },
+        "WeightedSieve/Main/WeightedLowerBoundSieve/LinearFormApplication/Theorems/HalberstamRichertQuantitativeAffineOfParameterCriterion.lean": {
+          "lines": 22,
+          "blank": 4,
+          "comment_only": 8,
+          "code": 10,
+          "mixed": 0,
+          "bytes": 738
+        },
+        "WeightedSieve/Main/WeightedLowerBoundSieve/LinearFormApplication/Defs/SatisfiesClassicalAffineThreshold.lean": {
+          "lines": 19,
+          "blank": 4,
+          "comment_only": 7,
+          "code": 8,
+          "mixed": 0,
+          "bytes": 617
+        }
+      }
+    }
+  },
+  "external": {
+    "interfaces": 11,
+    "actual_availability": {
+      "proved": 10,
+      "declared": 1
+    },
+    "stage_uses": 84,
+    "consumers": 14,
+    "stage_counts": {
+      "Statement": 41,
+      "Proof": 43
+    }
+  }
+}
