@@ -16,8 +16,8 @@ Acta Mathematica Sinica 26(3) (1983), 378–384.
 Apache-2.0 covers the original Lean code, generated documentation and
 publication metadata. It does not relicense the cited books and papers,
 third-party dependencies, or full-text development transcriptions.
-The public export excludes .lean_constellation/source/, source indexes,
-local runtime records and all prior development Git history.
+The child repositories include SourceCorpus transcriptions and LC source indexes.
+Local runtime records and credentials are excluded.
 No endorsement by the cited authors is claimed.
 
 The WeightedSieve quantitative almost-prime theorem is supplied at declared

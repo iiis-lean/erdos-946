@@ -12,12 +12,20 @@ The consumer has completed its `graph_proved` contract under a fixed `graph_decl
 
 ## Repositories and fixed versions
 
-| Repository | Completion | Public export commit |
+| Repository | Completion | Publication commit |
 | --- | --- | --- |
-| [ConsecutiveDivisorCounts](https://github.com/iiis-lean/consecutive-divisor-counts) | `graph_proved` | [`6e4403a9a5fb`](https://github.com/iiis-lean/consecutive-divisor-counts/tree/6e4403a9a5fb212e6f24998ab1e0d7a2ff80d9cf) |
-| [WeightedSieve](https://github.com/iiis-lean/weighted-sieve) | `graph_declared` | [`b2e4c77ce10c`](https://github.com/iiis-lean/weighted-sieve/tree/b2e4c77ce10c3b6204a43182aa1e0118c9c83085) |
+| [ConsecutiveDivisorCounts](https://github.com/iiis-lean/consecutive-divisor-counts) | `graph_proved` | [`89dc13b45b8e`](https://github.com/iiis-lean/consecutive-divisor-counts/tree/89dc13b45b8ef31e49d9ae23be270f2c4cc41748) |
+| [WeightedSieve](https://github.com/iiis-lean/weighted-sieve) | `graph_declared` | [`da09174bf0ba`](https://github.com/iiis-lean/weighted-sieve/tree/da09174bf0ba09ceecc4fde05e755e02e2abb0ce) |
 
-The gitlinks and the consumer's Lake dependency select these exact public commits. [workspace.json](workspace.json) also records the corresponding local LC Releases. Public export commits differ from local development Release commits because copyrighted full-text source transcriptions, private runtime state and development history are excluded. Every owned Lean file is byte-identical to its canonical source; each child contains a `publication-export.json` receipt.
+The gitlinks select complete publication snapshots. The consumer's Lake dependency retains the canonical WeightedSieve Release commit `47e028e5e8656524cca0454fde51cca76e7072c0`, now available from the provider's public Git history. [workspace.json](workspace.json) records publication commits and their immutable LC Releases separately.
+
+Both children include `.lean_constellation` contracts, declaration revisions, SourceIndex and full SourceCorpus transcriptions. Structured JSON includes complete statement/proof NL and formal sections without adding them to rendered pages. Every owned Lean file is unchanged. Each child's `lc-export.json` records its original Release export before documentation updates.
+
+After cloning, fetch each child's immutable LC Release refs when using LC Release readers:
+
+```sh
+git submodule foreach "git fetch origin '+refs/lean-constellation/releases/*:refs/lean-constellation/releases/*'"
+```
 
 ## Build
 
@@ -45,8 +53,8 @@ The provider has nine declared theorems, 17 definitions and two structures. The 
 
 ## Read the proof and interfaces
 
-- **ConsecutiveDivisorCounts**: [Main API](https://github.com/iiis-lean/consecutive-divisor-counts/blob/6e4403a9a5fb212e6f24998ab1e0d7a2ff80d9cf/docs/lean-constellation/PUBLIC_API.md), [public boundaries](https://github.com/iiis-lean/consecutive-divisor-counts/blob/6e4403a9a5fb212e6f24998ab1e0d7a2ff80d9cf/docs/lean-constellation/PUBLIC_BOUNDARIES.md), [complete graph](https://github.com/iiis-lean/consecutive-divisor-counts/blob/6e4403a9a5fb212e6f24998ab1e0d7a2ff80d9cf/docs/lean-constellation/DECLARATION_GRAPH.md), [external interfaces](https://github.com/iiis-lean/consecutive-divisor-counts/blob/6e4403a9a5fb212e6f24998ab1e0d7a2ff80d9cf/docs/lean-constellation/EXTERNAL_DEPENDENCIES.md).
-- **WeightedSieve**: [Main API](https://github.com/iiis-lean/weighted-sieve/blob/b2e4c77ce10c3b6204a43182aa1e0118c9c83085/docs/lean-constellation/PUBLIC_API.md), [public boundaries](https://github.com/iiis-lean/weighted-sieve/blob/b2e4c77ce10c3b6204a43182aa1e0118c9c83085/docs/lean-constellation/PUBLIC_BOUNDARIES.md), [complete graph](https://github.com/iiis-lean/weighted-sieve/blob/b2e4c77ce10c3b6204a43182aa1e0118c9c83085/docs/lean-constellation/DECLARATION_GRAPH.md), [external interfaces](https://github.com/iiis-lean/weighted-sieve/blob/b2e4c77ce10c3b6204a43182aa1e0118c9c83085/docs/lean-constellation/EXTERNAL_DEPENDENCIES.md).
+- **ConsecutiveDivisorCounts**: [Main API](https://github.com/iiis-lean/consecutive-divisor-counts/blob/89dc13b45b8ef31e49d9ae23be270f2c4cc41748/docs/lean-constellation/PUBLIC_API.md), [public boundaries](https://github.com/iiis-lean/consecutive-divisor-counts/blob/89dc13b45b8ef31e49d9ae23be270f2c4cc41748/docs/lean-constellation/PUBLIC_BOUNDARIES.md), [complete graph](https://github.com/iiis-lean/consecutive-divisor-counts/blob/89dc13b45b8ef31e49d9ae23be270f2c4cc41748/docs/lean-constellation/DECLARATION_GRAPH.md), [external interfaces](https://github.com/iiis-lean/consecutive-divisor-counts/blob/89dc13b45b8ef31e49d9ae23be270f2c4cc41748/docs/lean-constellation/EXTERNAL_DEPENDENCIES.md).
+- **WeightedSieve**: [Main API](https://github.com/iiis-lean/weighted-sieve/blob/da09174bf0ba09ceecc4fde05e755e02e2abb0ce/docs/lean-constellation/PUBLIC_API.md), [public boundaries](https://github.com/iiis-lean/weighted-sieve/blob/da09174bf0ba09ceecc4fde05e755e02e2abb0ce/docs/lean-constellation/PUBLIC_BOUNDARIES.md), [complete graph](https://github.com/iiis-lean/weighted-sieve/blob/da09174bf0ba09ceecc4fde05e755e02e2abb0ce/docs/lean-constellation/DECLARATION_GRAPH.md), [external interfaces](https://github.com/iiis-lean/weighted-sieve/blob/da09174bf0ba09ceecc4fde05e755e02e2abb0ce/docs/lean-constellation/EXTERNAL_DEPENDENCIES.md).
 
 ## Citation and licensing
 
@@ -54,4 +62,4 @@ The original theorem is due to D. R. Heath-Brown, *The divisor function at conse
 
 The Lean implementation was produced independently by IIIS Lean using [Lean Constellation](https://github.com/iiis-lean/lean-constellation). Cite both the mathematical sources and this implementation; see [CITATION.cff](CITATION.cff).
 
-Original code and documentation are licensed under [Apache-2.0](LICENSE). [NOTICE](NOTICE) records attribution and exclusions; the cited books and papers are not relicensed or reproduced here. Lean and Mathlib retain their own upstream licenses.
+Original code and documentation are licensed under [Apache-2.0](LICENSE). [NOTICE](NOTICE) records attribution and exclusions; the cited books and papers are not relicensed; their SourceCorpus transcriptions are included in the child repositories. Lean and Mathlib retain their own upstream licenses.
