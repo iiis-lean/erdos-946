@@ -14,8 +14,8 @@ The consumer has completed its `graph_proved` contract under a fixed `graph_decl
 
 | Repository | Completion | Publication commit |
 | --- | --- | --- |
-| [ConsecutiveDivisorCounts](https://github.com/iiis-lean/consecutive-divisor-counts) | `graph_proved` | [`2bcca869a7d9`](https://github.com/iiis-lean/consecutive-divisor-counts/tree/2bcca869a7d9d0a79320784e7bf27b871f8f8cd0) |
-| [WeightedSieve](https://github.com/iiis-lean/weighted-sieve) | `graph_declared` | [`05757f366147`](https://github.com/iiis-lean/weighted-sieve/tree/05757f36614785f0c62f415cc725b16f9413a37a) |
+| [ConsecutiveDivisorCounts](https://github.com/iiis-lean/consecutive-divisor-counts) | `graph_proved` | [`1960136f4739`](https://github.com/iiis-lean/consecutive-divisor-counts/tree/1960136f47398c134be4f4aeab5965ac7951d2ce) |
+| [WeightedSieve](https://github.com/iiis-lean/weighted-sieve) | `graph_declared` | [`13005a5a1cc9`](https://github.com/iiis-lean/weighted-sieve/tree/13005a5a1cc9afeed92d1404e7ff6e776c885eb0) |
 
 The gitlinks select complete publication snapshots. The consumer's Lake dependency retains the canonical WeightedSieve Release commit `47e028e5e8656524cca0454fde51cca76e7072c0`, now available from the provider's public Git history. [workspace.json](workspace.json) records publication commits and their immutable LC Releases separately.
 
@@ -53,8 +53,8 @@ The provider has nine declared theorems, 17 definitions and two structures. The 
 
 ## Read the proof and interfaces
 
-- **ConsecutiveDivisorCounts**: [Main API](https://github.com/iiis-lean/consecutive-divisor-counts/blob/2bcca869a7d9d0a79320784e7bf27b871f8f8cd0/docs/lean-constellation/PUBLIC_API.md), [public boundaries](https://github.com/iiis-lean/consecutive-divisor-counts/blob/2bcca869a7d9d0a79320784e7bf27b871f8f8cd0/docs/lean-constellation/PUBLIC_BOUNDARIES.md), [complete graph](https://github.com/iiis-lean/consecutive-divisor-counts/blob/2bcca869a7d9d0a79320784e7bf27b871f8f8cd0/docs/lean-constellation/DECLARATION_GRAPH.md), [external interfaces](https://github.com/iiis-lean/consecutive-divisor-counts/blob/2bcca869a7d9d0a79320784e7bf27b871f8f8cd0/docs/lean-constellation/EXTERNAL_DEPENDENCIES.md).
-- **WeightedSieve**: [Main API](https://github.com/iiis-lean/weighted-sieve/blob/05757f36614785f0c62f415cc725b16f9413a37a/docs/lean-constellation/PUBLIC_API.md), [public boundaries](https://github.com/iiis-lean/weighted-sieve/blob/05757f36614785f0c62f415cc725b16f9413a37a/docs/lean-constellation/PUBLIC_BOUNDARIES.md), [complete graph](https://github.com/iiis-lean/weighted-sieve/blob/05757f36614785f0c62f415cc725b16f9413a37a/docs/lean-constellation/DECLARATION_GRAPH.md), [external interfaces](https://github.com/iiis-lean/weighted-sieve/blob/05757f36614785f0c62f415cc725b16f9413a37a/docs/lean-constellation/EXTERNAL_DEPENDENCIES.md).
+- **ConsecutiveDivisorCounts**: [Main API](https://github.com/iiis-lean/consecutive-divisor-counts/blob/1960136f47398c134be4f4aeab5965ac7951d2ce/docs/lean-constellation/PUBLIC_API.md), [public boundaries](https://github.com/iiis-lean/consecutive-divisor-counts/blob/1960136f47398c134be4f4aeab5965ac7951d2ce/docs/lean-constellation/PUBLIC_BOUNDARIES.md), [complete graph](https://github.com/iiis-lean/consecutive-divisor-counts/blob/1960136f47398c134be4f4aeab5965ac7951d2ce/docs/lean-constellation/DECLARATION_GRAPH.md), [external interfaces](https://github.com/iiis-lean/consecutive-divisor-counts/blob/1960136f47398c134be4f4aeab5965ac7951d2ce/docs/lean-constellation/EXTERNAL_DEPENDENCIES.md).
+- **WeightedSieve**: [Main API](https://github.com/iiis-lean/weighted-sieve/blob/13005a5a1cc9afeed92d1404e7ff6e776c885eb0/docs/lean-constellation/PUBLIC_API.md), [public boundaries](https://github.com/iiis-lean/weighted-sieve/blob/13005a5a1cc9afeed92d1404e7ff6e776c885eb0/docs/lean-constellation/PUBLIC_BOUNDARIES.md), [complete graph](https://github.com/iiis-lean/weighted-sieve/blob/13005a5a1cc9afeed92d1404e7ff6e776c885eb0/docs/lean-constellation/DECLARATION_GRAPH.md), [external interfaces](https://github.com/iiis-lean/weighted-sieve/blob/13005a5a1cc9afeed92d1404e7ff6e776c885eb0/docs/lean-constellation/EXTERNAL_DEPENDENCIES.md).
 
 ## Citation and licensing
 
@@ -63,3 +63,7 @@ The original theorem is due to D. R. Heath-Brown, *The divisor function at conse
 The Lean implementation was produced independently by IIIS Lean using [Lean Constellation](https://github.com/iiis-lean/lean-constellation). Cite both the mathematical sources and this implementation; see [CITATION.cff](CITATION.cff).
 
 Original code and documentation are licensed under [Apache-2.0](LICENSE). [NOTICE](NOTICE) records attribution and exclusions; the cited books and papers are not relicensed; their SourceCorpus transcriptions are included in the child repositories. Lean and Mathlib retain their own upstream licenses.
+
+## Publication package
+
+[Source availability](SOURCE_AVAILABILITY.md), [publication provenance](PUBLICATION_PROVENANCE.md), and [file inventory](publication-files.json) describe this workspace. The original texts and LC export receipts are stored in its two pinned child repositories.

@@ -1,0 +1,26 @@
+{
+  "files": {
+    ".gitmodules": "9dd049b71a109ccaf1803048437bbfc1dfa8bdcb747d718a49c4c14d81d47046",
+    "CITATION.cff": "990b5ae48ddb28a57d2d1099539a564643b388432dacbbbe6d7f41ec05ee249e",
+    "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "NOTICE": "b6e837f7b1f9f5b10b0c0665b808cfc1d0d71f4c326da4fc8f5e3b551d87fb56",
+    "PUBLICATION_PROVENANCE.md": "76f441867f4a42692788911d4c0ab5408db153b1e055a0f8a56336325e26abdd",
+    "README.md": "02e88a6bfd79592fbcaca6c38572e944f27ac2e649dc0ab07cbc40f2a9d16a81",
+    "RELEASE_CANDIDATE.md": "09c0c265163595ccc79a04d9ca9eeec8f487d6c252f6c71d36f2a4b58270c4c9",
+    "SOURCE_AVAILABILITY.md": "4f51878229a7fc8c2c22b0a274704b266d66acd63156abca67f411b53cf69d02",
+    "STATISTICS.md": "bba22fe646a7ff684844823c3d4583c0cdf2aff13ba8d096055128ce2b02aa5a",
+    "assets/workspace-dependencies.dot": "b17f6a29d55a67977b39c2c48e1b5416123d667c7d7b6e530c5b90a24d96d6cd",
+    "assets/workspace-dependencies.svg": "4229052b853440f5295e03b34b2157694bfb7bc6f530b263e8b9b50dba086122",
+    "statistics.json": "2d2438ecf628b97955d21cfc3e449be763a765fb6dffff27e0911cb925383398",
+    "workspace.json": "851daea10c77ce2d68b561ca17d8170bc7dd236369c3b971ee8baf370544cfab"
+  },
+  "kind": "publication_file_inventory",
+  "provenance_mode": "multi_repo_workspace",
+  "publication_base_commit": "ffb27013f03349288a81f9d666b7d57b3aa1ed4f",
+  "schema_version": 1,
+  "source_materialization": "included_in_pinned_children",
+  "submodules": {
+    "repos/ConsecutiveDivisorCounts": "1960136f47398c134be4f4aeab5965ac7951d2ce",
+    "repos/WeightedSieve": "13005a5a1cc9afeed92d1404e7ff6e776c885eb0"
+  }
+}
